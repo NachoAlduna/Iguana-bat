@@ -1,0 +1,113 @@
+body *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+   font-size:50px ;
+   font-weight: 500;
+   padding-bottom : 10px;
+}
+
+header .slide {
+ width: fit-content;
+}
+
+#Intro .wrapper {
+    padding:45px 0  ;
+    width: 980px;
+    margin: auto;
+
+    }
+
+.wrapper img {
+    width: 400px;
+    }
+
+.wrapper .texto{
+
+    width: 50%;
+    margin-right: 70px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.wrapper img, .texto{
+
+display: inline-block;
+vertical-align: middle;
+}
+
+#Caracteristicas {
+    background-color:#1E1A13 ;
+    padding: 70px;
+    
+
+}
+#Caracteristicas h2 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+  }
+
+#Caracteristicas article {
+    display: inline-block;
+    vertical-align: middle;
+    margin : 0 50px;
+    width: 200px;
+  }
+#Caracteristicas article h3{
+    font-size: 24px;
+    font-weight: lighter;
+  }
+
+#Caracteristicas h3{
+    font-size: 24px;
+    font-weight: lighter;
+  }
+
+#Caracteristicas .fa-solid {
+
+    font-size: 45px;
+    padding-bottom: 15px;
+  }
+
+#Galeria {
+
+    padding: 80px;
+}
+
+#Galeria article{
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+#Galeria article img{
+
+    margin: 5px;
+    width:316px ;
+    height: 202px;
+
+  }
+
+footer {
+    padding: 40px;
+    background: #1E1A13;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+footer a {
+    color: white;
+    text-decoration: none;
+  }
